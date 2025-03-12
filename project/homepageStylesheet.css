@@ -5,11 +5,20 @@ body {
 
 #banner {
     background-color: grey;
+    width: 70%;
+}
+
+#banner > img {
+    width: 100%;
 }
 
 #flex {
     display: flex;
 
+}
+
+#searchbar {
+    background-color: black;
 }
 
 
@@ -18,5 +27,10 @@ body {
 }
 
 #icon {
-    background-color: #ffffff;
+    background-color: #f0f0ff;
+    width: 10%;
 }   
+
+#icon > img {
+    width: 100%;
+}
