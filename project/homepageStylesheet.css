@@ -1,0 +1,22 @@
+body {
+    background-color: #030061;
+}
+
+
+#banner {
+    background-color: grey;
+}
+
+#flex {
+    display: flex;
+
+}
+
+
+#nav {
+    background-color: #ffffff;
+}
+
+#icon {
+    background-color: #ffffff;
+}   
