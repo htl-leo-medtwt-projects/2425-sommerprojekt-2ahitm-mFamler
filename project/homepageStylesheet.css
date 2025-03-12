@@ -5,15 +5,17 @@ body {
 
 #banner {
     background-color: grey;
-    width: 70%;
+    width: 60%;
 }
 
 #banner > img {
-    width: 100%;
+    width: 50%;
 }
 
-#flex {
-    display: flex;
+#header {
+    display: grid;
+    background-color: #030061;
+    
 
 }
 
