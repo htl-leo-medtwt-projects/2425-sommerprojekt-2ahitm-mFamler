@@ -1,7 +1,12 @@
 body {
-    background-color: #030061;
+    background-color: #0c0943;
+    
 }
 
+@font-face {
+    font-family: orange-typewriter;
+    src: url(font/orange-typewriter/Orange\ Typewriter.ttf);
+}
 
 #banner {
     width: 450%;
@@ -23,7 +28,8 @@ body {
     grid-column: 70% 15% 15%;
     grid-gap: 1%;*/
 
-    background-color: #030061;
+    /*background-color:  #0c0943 #030061;*/
+    background: linear-gradient(to bottom, #030061, #0c0943);
 }
 
 #partOne {
@@ -108,9 +114,23 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: orange-typewriter;
+    font-weight: normal;
+    padding: 2% 0% 2% 0%;
+    height: 30vh;
 }
 
 .card-img {
-    width: 10%;
+    width: 40%;
     box-shadow: 2.5px 2.5px grey;
+    margin: 0% 7%;
 }
+
+img {
+    width: 100%;
+}
+
+.name {
+    font-size: 300%;
+}
+
