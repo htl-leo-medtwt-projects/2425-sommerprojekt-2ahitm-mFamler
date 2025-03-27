@@ -8,10 +8,11 @@ body {
     src: url(../font/orange-typewriter/Orange\ Typewriter.ttf);
 }
 
-#cards {
+.cards {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .card {
@@ -25,9 +26,10 @@ body {
 }
 
 .try_card {
+    padding: 0;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
     margin: 0%;
 }
 
@@ -37,44 +39,21 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    margin: 4% 3.5%;
+    margin: 3% 0%;
 }
-
-.card_txt {
-    width: 75%;
-}
-
-.card_txt > a {
-    text-decoration: none;
-}
-
-.img {
-    box-shadow: 2.5px 2.5px grey;
-    width: 100%;
-}
-
-.name {
-    font-size: 300%;
-}
-
-/*.box_out {
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    padding: 0%;
-}*/
 
 img {
     width: 100%;
 }
 
 .bookmark {
-    width: 5%;
-    margin-left: 80%;
+    width: 2.5%;
+    position: absolute;
+    right: 50%;
 }
 
 .heart {
-    width: 30%;
-    margin-left: 65%;
-    margin-bottom: 0%;
+    width: 7%;
+    position: absolute;
+    right: 40%;
 }
