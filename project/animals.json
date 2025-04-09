@@ -4,6 +4,45 @@
             "imgs": [
                 //ask teach about ref of other json files
             ],
+            "name": "Great white shark",
+            "latin_name": "Carcharodon carcharias",
+            "location": "worldwide in temperate and subtropical waters",
+            "family": "Mackerel Sharks",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "https://www.fisheries.noaa.gov/species/white-shark#:~:text=The%20white%20shark%20occurs%20worldwide,of%20Mexico)%20and%20U.S.%20Caribbean."
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Whale shark",
+            "latin_name": "Rhincodon typus",
+            "location": "all the tropical oceans of the world",
+            "family": "Rhincodontidae",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "https://www.britannica.com/animal/whale-shark"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Irish moss",
+            "latin_name": "Irish moss",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
             "name": "Firebrick Starfish",
             "latin_name": "",
             "location": "",
@@ -13,14 +52,83 @@
             ],
             "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Firebrick Starfish",
+            "latin_name": "",
+            "location": "",
+            "family": "",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+        }
     ]
 }

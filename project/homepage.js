@@ -56,4 +56,4 @@ function loadVid() {
 }
 
 //calling
-loadCards();
+
