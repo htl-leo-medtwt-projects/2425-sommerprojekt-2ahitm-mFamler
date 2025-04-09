@@ -31,13 +31,26 @@
                 //ask teach about ref of other json files
             ],
             "name": "Irish moss",
-            "latin_name": "Irish moss",
-            "location": "",
-            "family": "",
+            "latin_name": "Chondrus crispus",
+            "location": "all around the shores of Ireland and can also be found along the coast of Europe including Iceland, the Faroe Islands western Baltic Sea to southern Spain",
+            "family": "Gigartinaceae",
             "video": [
                 //This is also an istance of ref 
             ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+            "article": "https://irishseaweeds.com/carrageen-irish-moss-chondrus-crispus-2/"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "Cushion star",
+            "latin_name": "Culcita novaeguineae",
+            "location": "tropical warm waters in the Indo-Pacific",
+            "family": "Oreasteridae",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "https://www.lamar.edu/arts-sciences/biology/study-abroad-belize/marine-critters/marine-critters-2/cushion-star.html"
         },
         {
             "imgs": [
@@ -57,22 +70,9 @@
                 //ask teach about ref of other json files
             ],
             "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
-            "video": [
-                //This is also an istance of ref 
-            ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
-        },
-        {
-            "imgs": [
-                //ask teach about ref of other json files
-            ],
-            "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
+            "latin_name": "Asterodiscides truncatus",
+            "location": "eastern and southern Australia, the Norfolk Ridge and the Kermadec Islands of New Zealand",
+            "family": "Asterodiscididae",
             "video": [
                 //This is also an istance of ref 
             ],
