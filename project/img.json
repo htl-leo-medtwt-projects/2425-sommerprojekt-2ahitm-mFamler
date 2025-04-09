@@ -1,32 +1,72 @@
 {
     "great_white_shark": [
-
+        "images/img_json/great_white_shark/",
+        "images/img_json/great_white_shark/",
+        "images/img_json/great_white_shark/",
+        "images/img_json/great_white_shark/",
+        "images/img_json/great_white_shark/"
     ],
-    "name": [
-
+    "whale_shark": [
+        "images/img_json/whale_shark/",
+        "images/img_json/whale_shark/",
+        "images/img_json/whale_shark/",
+        "images/img_json/whale_shark/",
+        "images/img_json/whale_shark/"
     ],
-    "name": [
-
+    "irish_moss": [
+        "images/img_json/irish_moss/",
+        "images/img_json/irish_moss/",
+        "images/img_json/irish_moss/",
+        "images/img_json/irish_moss/",
+        "images/img_json/irish_moss/"
     ],
-    "name": [
-
+    "cushion_star": [
+        "images/img_json/cushion_star/",
+        "images/img_json/cushion_star/",
+        "images/img_json/cushion_star/",
+        "images/img_json/cushion_star/",
+        "images/img_json/cushion_star/"
     ],
-    "name": [
-
+    "firebrick_starfish": [
+        "images/img_json/firebrick_starfish/",
+        "images/img_json/firebrick_starfish/",
+        "images/img_json/firebrick_starfish/",
+        "images/img_json/firebrick_starfish/",
+        "images/img_json/firebrick_starfish/"
     ],
-    "name": [
-
+    "catfish": [
+        "images/img_json/catfish/",
+        "images/img_json/catfish/",
+        "images/img_json/catfish/",
+        "images/img_json/catfish/",
+        "images/img_json/catfish/"
     ],
-    "name": [
-
+    "sea_lion": [
+        "images/img_json/sea_lion/",
+        "images/img_json/sea_lion/",
+        "images/img_json/sea_lion/",
+        "images/img_json/sea_lion/",
+        "images/img_json/sea_lion/"
     ],
-    "name": [
-
+    "manatee": [
+        "images/img_json/manatees/",
+        "images/img_json/manatees/",
+        "images/img_json/manatees/",
+        "images/img_json/manatees/",
+        "images/img_json/manatees/"
     ],
-    "name": [
-
+    "sea_otter": [
+        "images/img_json/sea_otter/",
+        "images/img_json/sea_otter/",
+        "images/img_json/sea_otter/",
+        "images/img_json/sea_otter/",
+        "images/img_json/sea_otter/"
     ],
-    "name": [
-
+    "finger_leather_coral": [
+        "images/img_json/finger_leather_coral",
+        "images/img_json/finger_leather_coral",
+        "images/img_json/finger_leather_coral",
+        "images/img_json/finger_leather_coral",
+        "images/img_json/finger_leather_coral"
     ]
 }

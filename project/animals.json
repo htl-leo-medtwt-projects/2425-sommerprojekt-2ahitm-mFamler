@@ -2,15 +2,14 @@
     "animal": [
         {
             "imgs": [
-                 
+                //ask teach about ref of other json files
             ],
             "name": "Firebrick Starfish",
             "latin_name": "",
             "location": "",
             "family": "",
             "video": [
-                "https://www.youtube.com/embed/JyJJTf2rVd4?si=dcGUe8eGritXlfrR",
-                "https://www.youtube.com/embed/JyJJTf2rVd4?si=dcGUe8eGritXlfrR"
+                //This is also an istance of ref 
             ],
             "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
         },
