@@ -57,19 +57,6 @@
                 //ask teach about ref of other json files
             ],
             "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
-            "video": [
-                //This is also an istance of ref 
-            ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
-        },
-        {
-            "imgs": [
-                //ask teach about ref of other json files
-            ],
-            "name": "Firebrick Starfish",
             "latin_name": "Asterodiscides truncatus",
             "location": "eastern and southern Australia, the Norfolk Ridge and the Kermadec Islands of New Zealand",
             "family": "Asterodiscididae",
@@ -82,53 +69,66 @@
             "imgs": [
                 //ask teach about ref of other json files
             ],
-            "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
+            "name": "Catfish",
+            "latin_name": "Siluriformes",
+            "location": "fresh water/brackish water environments",
+            "family": "Ictaluridae, Siluridae, Clariidae etc",
             "video": [
                 //This is also an istance of ref 
             ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+            "article": "https://www.britannica.com/animal/catfish"
         },
         {
             "imgs": [
                 //ask teach about ref of other json files
             ],
-            "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
+            "name": "Sea Lion",
+            "latin_name": "Otariinae",
+            "location": "most species of sea lions live in the Pacific Ocean, from the Bering Sea to southern South America",
+            "family": "Otariidae",
             "video": [
                 //This is also an istance of ref 
             ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+            "article": "https://www.ifaw.org/animals/sea-lions#:~:text=The%20Californian%20sea%20lion%20inhabits,Peru%20to%20the%20Falkland%20Islands."
         },
         {
             "imgs": [
                 //ask teach about ref of other json files
             ],
-            "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
+            "name": "Manatees",
+            "latin_name": "Trichechus",
+            "location": "tropical and subtropical waters of North and South America and Africa",
+            "family": "Trichechidae",
             "video": [
                 //This is also an istance of ref 
             ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+            "article": "https://seaworld.org/animals/facts/mammals/manatees/#:~:text=All%20manatees%20inhabit%20tropical%20and,to%20the%20freshwater%20Amazon%20basin."
         },
         {
             "imgs": [
                 //ask teach about ref of other json files
             ],
-            "name": "Firebrick Starfish",
-            "latin_name": "",
-            "location": "",
-            "family": "",
+            "name": "Sea otter",
+            "latin_name": "Enhydra lutris",
+            "location": "along the North Pacific Ocean's coastal areas, from northern Japan to central Baja California, Mexico",
+            "family": "Mustelidae",
             "video": [
                 //This is also an istance of ref 
             ],
-            "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
+            "article": "https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter"
+        },
+        {
+            "imgs": [
+                //ask teach about ref of other json files
+            ],
+            "name": "finger leather coral",
+            "latin_name": "Sinularia polydactyla",
+            "location": "several tropical shallow reefs in Indo-Pacific waters, the Red Sea, and the Gulf of Aden",
+            "family": "Alcyoniidae",
+            "video": [
+                //This is also an istance of ref 
+            ],
+            "article": "https://www.saltcorner.com/AquariumLibrary/browsespecies.php?CritterID=2257"
         }
     ]
 }
