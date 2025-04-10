@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="accSetUp.css">
+    <script src="accSetUp.js" defer></script>
+</head>
+<body>
+    <div id="box">
+        <h1>account setup</h1>
+
+        <div id="base">
+            <div id="icon" onclick="changePfp()"> <!--if u click u can change pfp no idea if u can choose img or if theres presets-->
+                <img src="images/icons/iconStandard.png" alt="pfp" id="try">
+            </div>
+
+            <!--<input type="text" name="search" id="search" placeholder="search...">-->
+    
+            <div id="info">
+                <h1>name:</h1>
+                <input type="text" name="name" placeholder=" user123">
+                <h1>password:</h1>
+                <input type="text" name="password1" placeholder=" 12345" id="pw1">
+                <h1>affirm password:</h1> 
+                <!--to check if the password is correct read value of both and confirm this gets done other auto or when clicking save-->
+                <input type="text" name="password2" placeholder=" 12345" id="pw2">
+            </div>
+        </div>
+
+        <div id="save" onclick="save()"><!--you cant save if name and password arent filled out-->
+            <p>save</p>
+        </div>
+    </div>
+</body>
+</html>
