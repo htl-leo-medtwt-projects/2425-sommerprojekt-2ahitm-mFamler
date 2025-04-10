@@ -19,10 +19,10 @@ html, body {
 }
 
 #box {
-    margin: 1.3% auto;
+    margin: 13% auto;
     width: 45%;
     background-color: #1c40a0;
-    height: 95vh;
+    height: 50vh;
 }
 
 #box > h1 {
@@ -69,7 +69,7 @@ html, body {
     background-color: #f0f0ff;
     width: 50%;
     padding: 0.2% 0.5% 0.5%;
-    margin: 61% auto 0;
+    margin: 3.5% auto 0;
     text-align: center;
     user-select: none;
     cursor: pointer;
@@ -91,6 +91,7 @@ html, body {
     margin-left: 0;
     margin-right: 16%;
     text-shadow: white 1px 1px;
+    padding-left: 2.5%;
 }
 
 #info > h1 {
@@ -103,11 +104,15 @@ html, body {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding-bottom: 2.5%;
+    border-bottom: black solid 1px;
 }
 
 #info > input {
     margin-left: 5%;
     width: 70%;
     border-radius: 10px;
+    font-family: orange-typewriter;
+    padding: 1%;
 }
 
