@@ -1,3 +1,11 @@
+let pfp = {
+    pfp1: "",
+    pfp2: "",
+    pfp3: "",
+    pfp4: "",
+    pfp5: ""
+}
+
 function save() {
     console.log("save");
     checkIfPwAlign();
@@ -6,6 +14,9 @@ function save() {
 
 function changePfp() {
     console.log("pfp");
+    let randNr = Math.floor(Math.random() * 5);
+
+    document.getElementById("try") = `<img src="${pfp[randNr]}" alt="pfp" id="try"></img>`;
 }
 
 function checkIfPwAlign() {

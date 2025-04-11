@@ -2,92 +2,125 @@ let animals = {
     "animal": [
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/great_white_shark/great-white-shark.jpg",
+                "images/img_json/great_white_shark/White_shark.jpg",
+                "images/img_json/great_white_shark/white_shark_02.jpg",
+                "images/img_json/great_white_shark/white_shark_03.jpg",
+                "images/img_json/great_white_shark/white_shark_05.jpg"
             ],
             "name": "Great white shark",
             "latin_name": "Carcharodon carcharias",
             "location": "worldwide in temperate and subtropical waters",
             "family": "Mackerel Sharks",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/DZ0rDVnmzzM?si=8ERHbHU5V61y363i",
+                "https://youtu.be/jnJfYmfBN98?si=9Eld4fHLpGcrTz3Z"
             ],
             "article": "https://www.fisheries.noaa.gov/species/white-shark#:~:text=The%20white%20shark%20occurs%20worldwide,of%20Mexico)%20and%20U.S.%20Caribbean."
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/whale_shark/joali-being-whaleshark.webp",
+                "images/img_json/whale_shark/OG_Whale-Shark_KIDS_0622_16x9.avif",
+                "images/img_json/whale_shark/walhai-fakten-wissen-blog-natucate.webp",
+                "images/img_json/whale_shark/whale_shark_05.png",
+                "images/img_json/whale_shark/Whale_shark_Georgia_aquarium-e1566414673674.webp"
             ],
             "name": "Whale shark",
             "latin_name": "Rhincodon typus",
             "location": "all the tropical oceans of the world",
             "family": "Rhincodontidae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/uQrBwN39LJI?si=cbQo0LEIumqvH5xr",
+                "https://youtu.be/y55Skw5s9n8?si=mVjdDrxLn8KcoQ4E"
             ],
             "article": "https://www.britannica.com/animal/whale-shark"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/irish_moss/irish_moss_02.webp",
+                "images/img_json/irish_moss/irish_moss_03.jpg",
+                "images/img_json/irish_moss/irish_moss_05.jpg",
+                "images/img_json/irish_moss/Irish+Moss.jpg",
+                "images/img_json/irish_moss/Irish-Moss-Print.jpg"
             ],
             "name": "Irish moss",
             "latin_name": "Chondrus crispus",
             "location": "all around the shores of Ireland and can also be found along the coast of Europe including Iceland, the Faroe Islands western Baltic Sea to southern Spain",
             "family": "Gigartinaceae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/x1WXIvHT694?si=xgmfDuiugbzD7s7M",
+                "https://youtu.be/wWLsZVx6pAg?si=9dzp84NZ6LcDISOv"
             ],
             "article": "https://irishseaweeds.com/carrageen-irish-moss-chondrus-crispus-2/"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/cushion_star/cushion_star_02.jpg",
+                "images/img_json/cushion_star/cushion_star_04.jpg",
+                "images/img_json/cushion_star/cushion_star_05.jpg",
+                "images/img_json/cushion_star/dwarf_cushion_star_03.jpg",
+                "images/img_json/cushion_star/nz_common_cushion_star_01.jpeg"
             ],
             "name": "Cushion star",
             "latin_name": "Culcita novaeguineae",
             "location": "tropical warm waters in the Indo-Pacific",
             "family": "Oreasteridae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/0TlHaEG2KzI?si=PPUZt0o2uoj6YKfB"
+                //couldnt find a sec one
             ],
             "article": "https://www.lamar.edu/arts-sciences/biology/study-abroad-belize/marine-critters/marine-critters-2/cushion-star.html"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/firebrick_starfish/asterodiscides-truncatus-firebrick-starfish-1_orig.jpg",
+                "images/img_json/firebrick_starfish/asterodiscides-truncatus-firebrick-starfish-5_orig.jpg",
+                "images/img_json/firebrick_starfish/firebrick_sea_star_coral.jpg",
+                "images/img_json/firebrick_starfish/Firebrick_Starfish_(Asterodiscides_truncatus).jpg",
+                "images/img_json/firebrick_starfish/firebrick_starfish_04.jpg"
             ],
             "name": "Firebrick Starfish",
             "latin_name": "Asterodiscides truncatus",
             "location": "eastern and southern Australia, the Norfolk Ridge and the Kermadec Islands of New Zealand",
             "family": "Asterodiscididae",
             "video": [
-                //This is also an istance of ref 
+                //cant find shi on this
             ],
             "article": "http://www.realmonstrosities.com/2015/09/firebrick-starfish.html"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/catfish/blue catfish face.jpg",
+                "images/img_json/catfish/catfish_01.webp",
+                "images/img_json/catfish/hardhead-catfish-dad.jpg",
+                "images/img_json/catfish/Orig-Blue-Catfish-0012-1200x732-c-default.jpg",
+                "images/img_json/catfish/Tenkara-Angler-Jason-Sparks-Catfish-2.webp"
             ],
             "name": "Catfish",
             "latin_name": "Siluriformes",
             "location": "fresh water/brackish water environments",
             "family": "Ictaluridae, Siluridae, Clariidae etc",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/xJ6l0yT4yHw?si=CV4xB2GOKzHTQwEV",
+                "https://youtu.be/ckBJfdPsd8E?si=NLnhVFbn9QPQgQxI"
             ],
             "article": "https://www.britannica.com/animal/catfish"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/sea_lion/California_sea_lion_in_La_Jolla_(70568).jpg",
+                "images/img_json/sea_lion/sea_lion_02.jpg",
+                "images/img_json/sea_lion/sea_lion_04.webp",
+                "images/img_json/sea_lion/sea_lions_03.webp",
+                "images/img_json/sea_lion/sea-lion-tr15-900.webp"
             ],
             "name": "Sea Lion",
             "latin_name": "Otariinae",
             "location": "most species of sea lions live in the Pacific Ocean, from the Bering Sea to southern South America",
             "family": "Otariidae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/F14nHmyu2cM?si=3x19k_bVZydgbkNO" 
             ],
             "article": "https://www.ifaw.org/animals/sea-lions#:~:text=The%20Californian%20sea%20lion%20inhabits,Peru%20to%20the%20Falkland%20Islands."
         },
