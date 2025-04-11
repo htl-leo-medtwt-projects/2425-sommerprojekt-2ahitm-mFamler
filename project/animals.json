@@ -120,46 +120,62 @@ let animals = {
             "location": "most species of sea lions live in the Pacific Ocean, from the Bering Sea to southern South America",
             "family": "Otariidae",
             "video": [
-                "https://youtu.be/F14nHmyu2cM?si=3x19k_bVZydgbkNO" 
+                "https://youtu.be/F14nHmyu2cM?si=3x19k_bVZydgbkNO",
+                "https://youtu.be/0CQokvBd6Ak?si=QsRkyNvUnL5Yhgp7"
             ],
             "article": "https://www.ifaw.org/animals/sea-lions#:~:text=The%20Californian%20sea%20lion%20inhabits,Peru%20to%20the%20Falkland%20Islands."
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/manatees/manatee.primary-e6d6754efdc94e5bb635af7a5f456ca1.jpg",
+            	"images/img_json/manatees/manatees_02.jpg",
+                "images/img_json/manatees/manatees_04.jpg",
+                "images/img_json/manatees/manatees-banner.webp",
+                "images/img_json/manatees/manatee-teaser-1.jpg.optimal.jpg"
             ],
             "name": "Manatees",
             "latin_name": "Trichechus",
             "location": "tropical and subtropical waters of North and South America and Africa",
             "family": "Trichechidae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/-JS1biXAGb4?si=bX5jZ_zBS41cBLqb",
+                "https://youtu.be/X2P3v5UBawg?si=FJmdhQTcVERht8Tn"
             ],
             "article": "https://seaworld.org/animals/facts/mammals/manatees/#:~:text=All%20manatees%20inhabit%20tropical%20and,to%20the%20freshwater%20Amazon%20basin."
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/sea_otter/2020.10.27 - Sea Otter - Monterey Bay - California - Morgan Rector.avif",
+                "images/img_json/sea_otter/header-sea-otter-reintroduction-1.jpg",
+                "images/img_json/sea_otter/sea_otter_03.jpeg",
+                "images/img_json/sea_otter/sea_otter_05.jpg",
+                "images/img_json/sea_otter/sea-otter-closeup.avif"
             ],
             "name": "Sea otter",
             "latin_name": "Enhydra lutris",
             "location": "along the North Pacific Ocean's coastal areas, from northern Japan to central Baja California, Mexico",
             "family": "Mustelidae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/5CIP80iGBiw?si=q2ayD8iOAf620quS",
+                "https://youtu.be/VUHlHzkOA0w?si=QKc3m-N2JQtjaWqL"
             ],
             "article": "https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter"
         },
         {
             "imgs": [
-                //ask teach about ref of other json files
+                "images/img_json/finger_leather_coral/Finger Leather Coral Dec 24 2017.jpg",
+                "images/img_json/finger_leather_coral/fingerleather_coral_03.jpg",
+                "images/img_json/finger_leather_coral/fingerleatherlg2.jpg",
+                "images/img_json/finger_leather_coral/green_sinularia_leather.jpg",
+                "images/img_json/finger_leather_coral/Green-Finger-Leather_NDA.webp"
             ],
             "name": "finger leather coral",
             "latin_name": "Sinularia polydactyla",
             "location": "several tropical shallow reefs in Indo-Pacific waters, the Red Sea, and the Gulf of Aden",
             "family": "Alcyoniidae",
             "video": [
-                //This is also an istance of ref 
+                "https://youtu.be/i96jWYeYvhk?si=42b42olSQOwfFQee"
+                //cant find more what is this shi man wtf
             ],
             "article": "https://www.saltcorner.com/AquariumLibrary/browsespecies.php?CritterID=2257"
         }
