@@ -1,5 +1,9 @@
 body {
-    background-color: #0c0943;
+    /*background-color: #0c0943;*/
+    background-image: url(images/trybg1+.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
     font-family: orange-typewriter;
     margin: 0;
     user-select: none;
@@ -23,6 +27,13 @@ html, body {
     width: 45%;
     background-color: #1c40a0;
     height: 50vh;
+    box-shadow: 2px 2px 120px 15px black;
+}
+
+#box:hover {
+    transform: scale(1.1);
+    /*box-shadow: 10px 10px 150px 70px white, inset 0.1px 0.1px 100px 5px black;
+    background-color: #1c3fa0;*/
 }
 
 #box > h1 {

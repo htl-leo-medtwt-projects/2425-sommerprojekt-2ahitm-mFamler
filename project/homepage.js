@@ -2,8 +2,8 @@
 let cardCont;
 let imgs;
 let vid;
-let bmFilled = "";
 let isFilled = false;
+let isHearted = false;
 
 
 //func
@@ -31,8 +31,15 @@ function bookmark(nr) {
     }
 }
 
-function heart() {
-
+function heart(nr) {
+    if(isHearted == false) {
+        document.getElementById(`h${nr}`).src = "images/icons/heartGrey.png";
+        isHearted = true;
+    }
+    else {
+        document.getElementById(`h${nr}`).src = "images/icons/heart.png";
+        isHearted = false;
+    }
 }
 
 function accSetUpQuick() {
@@ -69,6 +76,11 @@ function loadImgs() {
 function loadVid() {
 
 }
+
+function navFill() {
+    console.log("fill")
+}
+
 
 //calling
 fetchAnimal();
