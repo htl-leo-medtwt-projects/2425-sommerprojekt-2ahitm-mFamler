@@ -2,6 +2,7 @@ body {
     background-color: #0c0943;
     font-family: orange-typewriter;
     margin: 0;
+    white-space: normal;
 }
 
 @font-face {
@@ -145,6 +146,7 @@ nav {
     flex-direction: row;
     margin: 0%;
     position: relative;
+    word-wrap: break-word;
 }
 
 .card-img {
@@ -181,6 +183,11 @@ img {
 
 .card_txt {
     width: 15vw;
+    word-break: break-all;
+}
+
+.nonLink {
+    
 }
 
 .more {
