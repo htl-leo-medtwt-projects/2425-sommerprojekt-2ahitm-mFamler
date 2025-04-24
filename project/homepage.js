@@ -5,19 +5,12 @@ let vid;
 let isFilled = false;
 let isHearted = false;
 
+//ref
+// <reference path="animals.js"/>
 
 //func
 function fetchAnimal() {
-    fetch('animals.json')
-    .then( (response) => {
-        return response.json();
-    })
-    .then( (animal) => {
-        console.log(animal);
-    })
-    .catch( (error) => {
-        throw error;
-    })
+    console.log(animals.animal);
 }
 
 function bookmark(nr) {
