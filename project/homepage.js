@@ -9,6 +9,7 @@ let x;
 let y;
 let currPosOfX;
 let currAnimal = 1;
+let pastX;
 
 //ref
 // <reference path="animals.js"/>
@@ -17,7 +18,7 @@ let currAnimal = 1;
 
 function rollFirstValue() {
     x = Math.floor(Math.random() * animals.animal.length);
-    console.log(x);
+    //console.log(x);
 
     let hasFoundSpace = false;
     for(let i = 0; i < galery.length && hasFoundSpace == false; i++) {
@@ -31,10 +32,10 @@ function rollFirstValue() {
 
 function rollSecondValue() {
     y = Math.floor(Math.random() * 5);
-    console.log(y);
+    //console.log(y);
 
     //check if the second value has been used again for that animal alr
-    checkForSimiliarSecValue();
+    //checkForSimiliarSecValue();
 
     let hasFoundSpace = false;
     for(let i = 0; i < galery.length && hasFoundSpace == false; i++) {
@@ -48,7 +49,7 @@ function rollSecondValue() {
 function checkForSimiliarSecValue() {
     let youPass = false;
     for(let i = 0; i < galery.length && youPass == false; i++) {
-        if(galery[0][i]) = x) {
+        if(galery[0][i] = x) {
             if(galery[1][currPosOfX] = y) {
                 rollSecondValue();
             }
@@ -64,6 +65,9 @@ function fetchAnimal() {
 
     //roll the first value this chooses the animal
     rollFirstValue();
+    while(pastX == x) {
+        rollFirstValue();
+    }
 
     //now roll for a value between 0-4 to choose a picture from the animal
     rollSecondValue();
@@ -81,13 +85,21 @@ function fetchAnimal() {
                     <a href="#" class="txt" >article</a><br>
                 </div>
     */
-    document.getElementById(`card${currAnimal}`).style.backgroundImage = animals[x].imgs[y];
-    document.getElementById(`name${currAnimal}`).innerHTML = animals[x].name;
-    document.getElementById(`latin${currAnimal}`).innerHTML = animals[x].latin_name;
-    document.getElementById(`loc${currAnimal}`).innerHTML = animals[x].location;
-    document.getElementById(`fam${currAnimal}`).innerHTML = animals[x].family;
-    document.getElementById(`vid${currAnimal}`).innerHTML = animals[x].video;
-    document.getElementById(`art${currAnimal}`).innerHTML = animals[x].article;
+    console.log(animals.animal[x].imgs[y]);
+    console.log(animals.animal[x].name);
+    console.log(animals.animal[x].latin_name);
+    console.log(animals.animal[x].location);
+    console.log(animals.animal[x].family);
+    console.log(animals.animal[x].video);
+    console.log(animals.animal[x].article);
+
+    document.getElementById(`card${currAnimal}`).style.backgroundImage = `url(${animals.animal[x].imgs[y]})`;
+    document.getElementById(`name${currAnimal}`).innerHTML = animals.animal[x].name;
+    document.getElementById(`latin${currAnimal}`).innerHTML = animals.animal[x].latin_name;
+    document.getElementById(`loc${currAnimal}`).innerHTML = animals.animal[x].location;
+    document.getElementById(`fam${currAnimal}`).innerHTML = animals.animal[x].family;
+    document.getElementById(`vid${currAnimal}`).innerHTML = animals.animal[x].video[0];
+    document.getElementById(`art${currAnimal}`).innerHTML = animals.animal[x].article;
 
 }
 
@@ -140,6 +152,7 @@ function loadCards() { // u need to call fetch animal twice since everything wor
     `*/
 
     fetchAnimal();
+    pastX = x;
     currAnimal = 2;
 
     fetchAnimal();
@@ -159,4 +172,4 @@ function navFill() {
 
 
 //calling
-
+loadCards();
