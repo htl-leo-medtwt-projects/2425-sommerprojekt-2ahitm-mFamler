@@ -3,7 +3,36 @@ let pfp = {
     pfp2: "",
     pfp3: "",
     pfp4: "",
-    pfp5: ""
+    pfp5: "",
+    pfp6: "",
+    pfp7: "",
+    pfp8: "",
+    pfp9: "",
+    pfp10: "",
+    pfp11: "",
+    pfp12: "",
+    pfp13: "",
+    pfp14: "",
+    pfp15: "",
+    pfp16: "",
+    pfp17: "",
+    pfp18: "",
+    pfp19: "",
+    pfp20: "",
+    pfp21: "",
+    pfp22: "",
+    pfp23: "",
+    pfp24: "",
+    pfp25: "",
+    pfp26: "",
+    pfp27: "",
+    pfp28: "",
+    pfp29: "",
+    pfp30: "",
+    pfp31: "",
+    pfp32: "",
+    pfp33: "",
+    pfp34: ""
 }
 
 function save() {
@@ -14,7 +43,7 @@ function save() {
 
 function changePfp() {
     console.log("pfp");
-    let randNr = Math.floor(Math.random() * 5);
+    let randNr = Math.floor(Math.random() * 34);
 
     document.getElementById("try") = `<img src="${pfp[randNr]}" alt="pfp" id="try"></img>`;
 }
