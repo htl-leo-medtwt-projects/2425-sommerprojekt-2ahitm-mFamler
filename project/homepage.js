@@ -170,6 +170,10 @@ function navFill() {
     console.log("fill")
 }
 
+function moveToAccSetup() {
+    window.location.href = "accSetUp.html";
+}
+
 
 //calling
 loadCards();

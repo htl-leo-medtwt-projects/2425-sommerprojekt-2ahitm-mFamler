@@ -47,3 +47,17 @@ function checkIfUserLongEnough() {
         console.log("long enough");
     }
 }
+
+function escapeToHomepage() {
+    window.location.href = "./homepage.html";
+}
+
+//outside code from copilot
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' || event.key === 'Esc') {
+        console.log('Escape key was pressed!');
+        // You can add your custom logic here
+        //adding my own code needed
+        escapeToHomepage();
+    }
+});

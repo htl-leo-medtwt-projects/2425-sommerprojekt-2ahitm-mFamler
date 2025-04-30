@@ -140,7 +140,7 @@ nav {
 }
 
 .try_card {
-    padding: 3% 0%;
+    padding: 3% 0% 0%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -183,11 +183,7 @@ img {
 
 .card_txt {
     width: 15vw;
-    word-break: break-all;
-}
-
-.nonLink {
-    
+    /*word-break: break-all;*/
 }
 
 .more {
@@ -215,22 +211,22 @@ img {
 }
 
 .txt {
-    margin: 1%; 
+    margin: 0%; 
     padding: 0;
 }
 
 #small_galery {
     display: grid;
-    grid-template-columns: 35vh 35vh 35vh 35vh;
-    grid-template-rows: 35vh 35vh 35vh;
-    grid-gap: 2.5%;
-    margin-left: 7%;
-    margin-bottom: 5%
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    grid-template-rows: 40vh 40vh 40vh;
+    margin: auto auto 3.5% 4%;
+    padding: auto;
+    grid-gap: 1%;
 }
 
 .pic {
-    width: 20vw;
-    height: 35vh;
+    width: 40vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
