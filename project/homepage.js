@@ -174,6 +174,13 @@ function moveToAccSetup() {
     window.location.href = "accSetUp.html";
 }
 
+function changeIcon(pfp) {
+    console.log(pfp);
+
+    document.getElementById("icon").innerHTML = `<img src="${pfp}" alt="pfp" id="try" onclick="accSetUpQuick()"></img>`;
+    console.log("changed icon");
+}
+
 
 //calling
 loadCards();

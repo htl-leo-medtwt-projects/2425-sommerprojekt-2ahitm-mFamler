@@ -219,7 +219,7 @@ img {
     display: grid;
     grid-template-columns: 40vh 40vh 40vh 40vh;
     grid-template-rows: 40vh 40vh 40vh;
-    margin: auto auto 3.5% 4%;
+    margin: auto auto 3.5% 4.2%;
     padding: auto;
     grid-gap: 1%;
 }
