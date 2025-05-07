@@ -83,8 +83,8 @@ function fetchAnimal() {
     document.getElementById(`latin${currAnimal}`).innerHTML = animals.animal[x].latin_name;
     document.getElementById(`loc${currAnimal}`).innerHTML = animals.animal[x].location;
     document.getElementById(`fam${currAnimal}`).innerHTML = animals.animal[x].family;
-    document.getElementById(`vid${currAnimal}`).innerHTML = animals.animal[x].video[0];
-    document.getElementById(`art${currAnimal}`).innerHTML = animals.animal[x].article;
+    document.getElementById(`vid${currAnimal}`).href = animals.animal[x].video[0];
+    document.getElementById(`art${currAnimal}`).href = animals.animal[x].article;
 
 }
 

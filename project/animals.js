@@ -109,7 +109,7 @@ let animals = {
         },
         {
             "imgs": [
-                "images/img_json/sea_lion/California_sea_lion_in_La_Jolla_(70568).jpg",
+                "images/img_json/sea_lion/California_sea_lion_in_La_Jolla_70568.jpg",
                 "images/img_json/sea_lion/sea_lion_02.jpg",
                 "images/img_json/sea_lion/sea_lion_04.webp",
                 "images/img_json/sea_lion/sea_lions_03.webp",

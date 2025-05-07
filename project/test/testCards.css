@@ -2,7 +2,6 @@ body {
     background-color: #0c0943;
     font-family: orange-typewriter;
     margin: 0;
-    white-space: normal;
 }
 
 @font-face {
@@ -32,12 +31,6 @@ body {
 }
 
 #header {
-    /*display: grid;
-    grid-row: auto auto;
-    grid-column: 70% 15% 15%;
-    grid-gap: 1%;*/
-
-    /*background-color:  #0c0943 #030061;*/
     background: linear-gradient(to bottom, #030061, #0c0943);
     position: sticky;
     top: 0;
@@ -146,13 +139,13 @@ nav {
 }
 
 .try_card {
-    padding: 3% 0% 0%;
+    padding-top: 3%;
     display: flex;
     align-items: center;
     flex-direction: row;
     margin: 0%;
     position: relative;
-    word-wrap: break-word;
+    
 }
 
 .card-img {
@@ -189,10 +182,12 @@ img {
 
 .card_txt {
     width: 15vw;
-    /*word-break: break-all;*/
 }
 
-
+.txt {
+    margin: 0%; 
+    padding: 0;
+}
 
 
 
@@ -218,11 +213,6 @@ img {
 .more > a:hover {
     text-shadow: 5px 5px black;
     cursor: pointer;
-}
-
-.txt {
-    margin: 0%; 
-    padding: 0;
 }
 
 #small_galery {
