@@ -9,47 +9,49 @@
     <script src="animals.js" defer></script>
     <script src="galery.js" defer></script>
 
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script>
-        const swup = new Swup();
-    </script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
 </head>
 <body>
 
-    <main id="swup" class="transition-fade">
-        <div id="header">
-            <div id="partOne">
-                <div id="banner">
-                    <h2 style="padding: 0; margin: 0;">life under the water</h2>
-                    <!--<img src="images/post-listing1-lady-elliot-island_w19203.jpg" alt="manta rays"> make bg instead-->
+    <div data-barba="wrapper">
+        <div data-barba="container" data-barba-namespace="home">
+
+            <div id="header">
+                <div id="partOne">
+                    <div id="banner">
+                        <h2 style="padding: 0; margin: 0;">life under the water</h2>
+                        <!--<img src="images/post-listing1-lady-elliot-island_w19203.jpg" alt="manta rays"> make bg instead-->
+                    </div>
+                    <div id="searchbar">
+                        <input type="text" name="search" id="search" placeholder="search...">
+                    </div>
+                    <div id="icon" onclick="moveToAccSetup()">
+                        <img src="images/icons/iconStandard.png" alt="standard icon" id="try">
+                    </div>
                 </div>
-                <div id="searchbar">
-                    <input type="text" name="search" id="search" placeholder="search...">
-                </div>
-                <div id="icon" onclick="moveToAccSetup()">
-                    <img src="images/icons/iconStandard.png" alt="standard icon" id="try">
+                <div id="nav">
+                    <nav>
+                        <a href="homepage.html" class="border-right" onclick="navFill()">home</a>
+                        <a href="galery.css" class="border-right" onclick="navFill()">gallery</a>
+                        <a href="#" class="border-right" onclick="navFill()">cards</a>
+                        <a href="#" class="border-right" onclick="navFill()">articles 'n videos</a>
+                        <!--<a href="#" class="border-right" style="padding: 0.5% 8% 0.5% 0.3%;"> videos</a>!-->
+                        <a href="#" onclick="navFill()">map</a>
+                    </nav>
                 </div>
             </div>
-            <div id="nav">
-                <nav>
-                    <a href="homepage.html" class="border-right" onclick="navFill()">home</a>
-                    <a href="galery.css" class="border-right" onclick="navFill()">gallery</a>
-                    <a href="#" class="border-right" onclick="navFill()">cards</a>
-                    <a href="#" class="border-right" onclick="navFill()">articles 'n videos</a>
-                    <!--<a href="#" class="border-right" style="padding: 0.5% 8% 0.5% 0.3%;"> videos</a>!-->
-                    <a href="#" onclick="navFill()">map</a>
-                </nav>
+        
+            <div id="box">
+                <div id="filters">
+                    <h1>filters...</h1>
+                </div>
+        
+                <div id="galery"></div>
             </div>
+
         </div>
-    
-        <div id="box">
-            <div id="filters">
-                <h1>filters...</h1>
-            </div>
-    
-            <div id="galery"></div>
-        </div>
-    </main>
+    </div>
     
 </body>
 </html>
