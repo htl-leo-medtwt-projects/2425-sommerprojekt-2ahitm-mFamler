@@ -5,6 +5,15 @@ body {
     white-space: normal;
 }
 
+html.is-changing .transition-fade {
+    transition: opacity 0.25s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
 @font-face {
     font-family: orange-typewriter;
     src: url(font/orange-typewriter/Orange\ Typewriter.ttf);
