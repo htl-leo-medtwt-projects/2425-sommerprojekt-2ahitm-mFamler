@@ -43,16 +43,16 @@ function save() {
     checkIfUserLongEnough();
     changeIcon(newIcon);
 
-    window.location.href = "./homepage.html";
+    //window.location.href = "./homepage.html";
 }
 
 function changePfp() {
     console.log("pfp");
     let randNr = Math.floor(Math.random() * 29);
     console.log(pfp[randNr])
-    newIcon = pfp[randNr];
+    //newIcon = pfp[randNr];
 
-    document.getElementById("icon").innerHTML = `<img src="${pfp[randNr]}" alt="pfp" id="try"></img>`;
+    document.getElementById("icon1").innerHTML = `<img src="${pfp[randNr]}" alt="pfp" id="try"></img>`;
 }
 
 function checkIfPwAlign() {

@@ -2,6 +2,7 @@ body {
     background-color: #0c0943;
     font-family: orange-typewriter;
     margin: 0;
+    padding-bottom: 5%;
 }
 
 @font-face {
@@ -104,6 +105,8 @@ nav {
     grid-column: 3/4;*/
     margin-right: 0.5%;
     margin-top: 1.3%;
+    cursor: pointer;
+    user-select: none;
 }   
 
 #try {
@@ -118,4 +121,48 @@ nav {
 
 .border-right {
     border-right: white solid 1px;
+}
+
+#galery {
+    display: grid;
+    grid-template-columns: 32vh 32vh 32vh 32vh;
+    grid-template-rows: 32vh 32vh 32vh;
+    margin: auto auto 3.5% 2.5%;
+    padding: auto;
+    column-gap: 2%;
+    row-gap: 1%;
+}
+
+.pic {
+    width: 32vh;
+    height: 32vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+    cursor: pointer;
+    filter: grayscale(0.5);
+}
+
+.pic:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+#filters {
+    margin-left: 3.9%;
+    width: 12%;
+    padding: 0% 1.5%;
+    background-color: #1c3fa0a1;
+    margin-right: 0;
+    position: sticky;
+    top: 10vh;
+    height: 70vh;
+    color: white;
+    text-shadow: black 3px 3px;
+}
+
+#box {
+    display: flex;
+    margin-bottom: 2.5%;
 }

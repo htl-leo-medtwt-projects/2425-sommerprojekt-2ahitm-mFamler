@@ -77,7 +77,7 @@ let animals = {
                 "images/img_json/firebrick_starfish/asterodiscides-truncatus-firebrick-starfish-1_orig.jpg",
                 "images/img_json/firebrick_starfish/asterodiscides-truncatus-firebrick-starfish-5_orig.jpg",
                 "images/img_json/firebrick_starfish/firebrick_sea_star_coral.jpg",
-                "images/img_json/firebrick_starfish/Firebrick_Starfish_(Asterodiscides_truncatus).jpg",
+                "images/img_json/firebrick_starfish/Firebrick_Starfish_Asterodiscides_truncatus.jpg",
                 "images/img_json/firebrick_starfish/firebrick_starfish_04.jpg"
             ],
             "name": "Firebrick Starfish",
@@ -91,7 +91,7 @@ let animals = {
         },
         {
             "imgs": [
-                "images/img_json/catfish/blue catfish face.jpg",
+                "images/img_json/catfish/blue-catfish-face.jpg",
                 "images/img_json/catfish/catfish_01.webp",
                 "images/img_json/catfish/hardhead-catfish-dad.jpg",
                 "images/img_json/catfish/Orig-Blue-Catfish-0012-1200x732-c-default.jpg",
@@ -145,7 +145,7 @@ let animals = {
         },
         {
             "imgs": [
-                "images/img_json/sea_otter/2020.10.27 - Sea Otter - Monterey Bay - California - Morgan Rector.avif",
+                "images/img_json/sea_otter/2020.10.27-SeaOtter-MontereyBay-California-MorganRector.avif",
                 "images/img_json/sea_otter/header-sea-otter-reintroduction-1.jpg",
                 "images/img_json/sea_otter/sea_otter_03.jpeg",
                 "images/img_json/sea_otter/sea_otter_05.jpg",
@@ -163,7 +163,7 @@ let animals = {
         },
         {
             "imgs": [
-                "images/img_json/finger_leather_coral/Finger Leather Coral Dec 24 2017.jpg",
+                "images/img_json/finger_leather_coral/Finger-Leather-Coral-Dec-24-2017.jpg",
                 "images/img_json/finger_leather_coral/fingerleather_coral_03.jpg",
                 "images/img_json/finger_leather_coral/fingerleatherlg2.jpg",
                 "images/img_json/finger_leather_coral/green_sinularia_leather.jpg",

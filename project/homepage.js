@@ -156,6 +156,8 @@ function loadCards() { // u need to call fetch animal twice since everything wor
     currAnimal = 2;
 
     fetchAnimal();
+
+    //document.getElementById("icon").innerHTML = `<img src="${newIcon}" alt="pfp" id="try" onclick="accSetUpQuick()"></img>`;
 }
 
 function loadImgs() {
@@ -174,12 +176,14 @@ function moveToAccSetup() {
     window.location.href = "accSetUp.html";
 }
 
-function changeIcon(pfp) {
+//let newIcon;
+/*function changeIcon(pfp) {
     console.log(pfp);
+    newIcon = pfp;
 
     document.getElementById("icon").innerHTML = `<img src="${pfp}" alt="pfp" id="try" onclick="accSetUpQuick()"></img>`;
     console.log("changed icon");
-}
+}*/
 
 
 //calling
