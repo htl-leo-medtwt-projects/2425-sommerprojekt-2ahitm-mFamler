@@ -1,5 +1,5 @@
 //var
-let cardCont;
+/*let cardCont;
 let imgs;
 let vid;
 let isFilled = false;
@@ -80,7 +80,7 @@ function makeGalery() {
     pastX = x;
     currAnimal = 2;
 
-    for(let i = 1; i <= 31; i++) {
+    for(let i = 1; i <= 32; i++) {
         fetchAnimal();
         pastX = x;
         currAnimal = i;
@@ -93,4 +93,62 @@ function moveToAccSetup() {
     window.location.href = "accSetUp.html";
 }
 
-makeGalery();
+makeGalery();*/
+
+//const array = [[11], [1]]; 
+const array = Array.from({ length: 32 }, () => [null, null]);
+let aNr;
+let iNr;
+function fetchGal() {
+    console.log(animals.animal);
+    let tempAn = 1;
+
+    for(let i = 0; i < 32; i++) {
+        console.log("pic " + i)
+        aNr = Math.floor(Math.random() * 10);
+        console.log("val 1: " + aNr);
+        array[i][0] = aNr; 
+
+        iNr = Math.floor(Math.random() * 5);
+        let temp = iNr;
+        console.log("temp val 2: " + iNr);
+
+        /*while(array[i][1] == temp && array[i][0] == aNr) {
+            console.log("hit");
+            console.log("");
+            
+        }*/
+
+        let temp1;
+        let temp2;
+        for(let j = 0; j < array.length - 1; j++) {
+            temp1 = array[j][1];
+            temp2 = array[j][0];
+            while(temp1 == temp && temp2 == aNr) {
+                iNr = Math.floor(Math.random() * 5);
+                temp = iNr;
+
+                console.log("temp sec val: " + temp);
+            }
+        }
+
+        console.log("fin val 1: " + aNr);
+        console.log("fin val 2: " + iNr);
+        array[i][1] = iNr;
+        tempAn++;
+
+        console.log(animals.animal[aNr].imgs[iNr])
+        console.log("");
+        
+
+        document.getElementById(`galery`).innerHTML += `<div class="pic" id="gal${tempAn}" style="background-image: url(${animals.animal[aNr].imgs[iNr]});"></div>`;
+    }
+
+    
+}
+
+function moveToAccSetup() {
+    window.location.href = "accSetUp.html";
+}
+
+fetchGal();
