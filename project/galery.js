@@ -211,6 +211,9 @@ let temp2;
 let temp3;
 let temp4;
 let x = 10;
+let i = 0;
+let j = 0;
+let count = 0;
 
 function workDammit() {
     temp1 = Math.floor(Math.random() * x);
@@ -219,18 +222,60 @@ function workDammit() {
     temp3 = temp1;
     temp4 = temp2;
 
-    roll();
+    roll1();
+    roll2();
 
     
 }
 
-//rol
-function roll() {
+//roll 1
+function roll1() {
     temp1 = Math.floor(Math.random() * x);
+}
+
+//roll 2
+function roll2() {
     temp2 = Math.floor(Math.random() * 5);
 }
 
 // check array
 function arrayCheck() {
-    while(array)
+    i = 0;
+    j = 0;
+
+    for(i = 0; i < 32; i++) {
+        ifEquals3();
+    }
+}
+
+//if 1 
+function ifEquals3() {
+    if(array[0][i] = temp3) {
+        ifEquals4();
+    }
+    else {
+
+    }
+}
+
+//if 2 
+function ifEquals4() {
+    
+    if(array[1][i] = temp4) {
+        //roll2();
+        while(array[1][i] = temp4) {
+            roll2();
+            arrayCheck();
+            count();
+        }
+    }
+}
+
+// if 2 has been done 5 times 
+function count() {
+    count++;
+        if(count = 5) {
+            roll1();
+            arrayCheck();
+        }
 }
