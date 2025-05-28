@@ -96,7 +96,7 @@ function moveToAccSetup() {
 makeGalery();*/
 
 //const array = [[11], [1]]; 
-const array = Array.from({ length: 32 }, () => [null, null]);
+/*const array = Array.from({ length: 32 }, () => [null, null]);
 let aNr;
 let iNr;
 function fetchGal() {
@@ -113,11 +113,11 @@ function fetchGal() {
         let temp = iNr;
         console.log("temp val 2: " + iNr);
 
-        /*while(array[i][1] == temp && array[i][0] == aNr) {
+        //while(array[i][1] == temp && array[i][0] == aNr) {
             console.log("hit");
             console.log("");
             
-        }*/
+        }//
 
         let temp1;
         let temp2;
@@ -145,10 +145,92 @@ function fetchGal() {
     }
 
     
-}
+}*/
+
+/*function fetchMe() {
+    const tempArray = Array.from({ length: 32 }, () => [null, null]);
+
+    let temp1;
+    let temp2;
+    let temp3;
+    let temp4;
+
+    temp1 = Math.floor(Math.random() * 10);
+    tempArray[0][0] = temp1;
+
+    temp2 = Math.floor(Math.random() * 5);
+    tempArray[0][1] = temp2;
+
+    document.getElementById(`galery`).innerHTML += `<div class="pic" id="gal0" style="background-image: url(${animals.animal[temp1].imgs[temp2]});"></div>`;
+
+    for(let i = 1; i < tempArray.length - 1; i++) {
+        temp1 = Math.floor(Math.random() * 10);
+        tempArray[i][0] = temp1;
+
+        temp2 = Math.floor(Math.random() * 5);
+        tempArray[i][1] = temp2;
+
+        temp3 = temp1;
+        temp4 = temp2;
+
+        for(let j = 0; j < tempArray.length - 2; j++) {
+            if(temp1 == tempArray[j][0] && temp2 == tempArray[j][1]) {
+                temp2 = Math.floor(Math.random() * 5);
+                tempArray[i][1] = temp2;
+                while(temp1 == tempArray[j][0] && temp2 == tempArray[j][1]) {
+                    for(let j = 0; j < tempArray.length - 2; j++) {
+                        if(temp1 == tempArray[j][0] && temp2 == tempArray[j][1]) {
+                            temp2 = Math.floor(Math.random() * 5);
+                            tempArray[i][1] = temp2;
+                        }
+                    }
+                }
+            }
+        }
+
+        document.getElementById(`galery`).innerHTML += `<div class="pic" id="gal${i}" style="background-image: url(${animals.animal[temp1].imgs[temp2]});"></div>`;
+    }
+
+
+}*/
 
 function moveToAccSetup() {
     window.location.href = "accSetUp.html";
 }
 
-fetchGal();
+//fetchGal();
+
+//fetchMe();
+
+
+// new methode for calc
+
+let array = Array.from({ length: 2 }, () => Array(32));
+let temp1;
+let temp2;
+let temp3;
+let temp4;
+let x = 10;
+
+function workDammit() {
+    temp1 = Math.floor(Math.random() * x);
+    temp2 = Math.floor(Math.random() * 5);
+
+    temp3 = temp1;
+    temp4 = temp2;
+
+    roll();
+
+    
+}
+
+//rol
+function roll() {
+    temp1 = Math.floor(Math.random() * x);
+    temp2 = Math.floor(Math.random() * 5);
+}
+
+// check array
+function arrayCheck() {
+    while(array)
+}
