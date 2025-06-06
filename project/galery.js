@@ -213,7 +213,7 @@ let temp4;
 let x = 10;
 let i = 0;
 let j = 0;
-let count = 0;
+let counter = 0;
 
 function workDammit() {
     temp1 = Math.floor(Math.random() * x);
@@ -225,7 +225,20 @@ function workDammit() {
     roll1();
     roll2();
 
-    
+    arrayCheck();
+
+    temp3 = temp1;
+    temp4 = temp2;
+
+    for(let z = 2; i < 32; z++) {
+        roll1();
+        roll2();
+
+        arrayCheck();
+
+        temp3 = temp1;
+        temp4 = temp2;
+    }
 }
 
 //roll 1
@@ -250,22 +263,23 @@ function arrayCheck() {
 
 //if 1 
 function ifEquals3() {
-    if(array[0][i] = temp3) {
+    if(array[0][i] == temp3) {
         ifEquals4();
+        counter = 0;
     }
     else {
-
+        document.getElementById(`galery`).innerHTML += `<div class="pic" id="gal${i}" style="background-image: url(${animals.animal[temp1].imgs[temp2]});"></div>`;
     }
 }
 
 //if 2 
 function ifEquals4() {
     
-    if(array[1][i] = temp4) {
+    if(array[1][i] == temp4) {
         //roll2();
-        while(array[1][i] = temp4) {
+        while(array[1][i] == temp4) {
             roll2();
-            arrayCheck();
+            //arrayCheck();
             count();
         }
     }
@@ -273,9 +287,11 @@ function ifEquals4() {
 
 // if 2 has been done 5 times 
 function count() {
-    count++;
-        if(count = 5) {
+    counter++;
+        if(counter == 5) {
             roll1();
-            arrayCheck();
+            ifEquals3();
         }
 }
+
+workDammit();
